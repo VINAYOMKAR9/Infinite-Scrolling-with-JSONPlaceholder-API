@@ -1,0 +1,20 @@
+#container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    border: 2px solid red;
+}
+#container>div{
+    border: 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
